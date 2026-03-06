@@ -1,0 +1,46 @@
+@media print {
+    @page {
+        margin: 10mm;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 80%;
+    margin-left: 10%;
+    top: 0;
+    position: relative;
+}
+
+header h2,
+h4,
+h3 {
+    text-align: center;
+    padding: 0;
+}
+
+main {
+    width: 70%;
+    margin-left: 15%;
+}
+
+main h3 {
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+}
+
+hr{
+    height: 2px;
+    border: none;
+    border-top: 1px solid black;
+}
+
+p{
+    white-space: pre-line;
+}
